@@ -70,8 +70,7 @@ if st.button("🔍 Search Car", use_container_width=True):
 
         st.header("🚘 " + car["name"])
         st.subheader("💰 " + car["price"])
-        import os
-        st.write("Image path:", car["image"], "File exists:", os.path.exists(car["image"]))
+    
         st.image(car["image"], use_container_width=True)
 
         col1, col2, col3 = st.columns(3)
