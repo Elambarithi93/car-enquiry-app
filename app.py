@@ -18,7 +18,7 @@ cars = {
         "engine": "1.2L",
         "transmission": "Manual / AMT",
         "seats": "5",
-        "image": "images/Baleno.jpg",
+        "image": "Baleno.jpg",
         "body": "Hatchback"
     },
     "swift": {
@@ -28,7 +28,7 @@ cars = {
         "engine": "1.2L",
         "transmission": "Manual / AMT",
         "seats": "5",
-        "image": "images/SWIFT.jpg",
+        ""image": "SWIFT.jpg",
         "body": "Hatchback"
     },
     "creta": {
@@ -38,7 +38,7 @@ cars = {
         "engine": "Variant dependent",
         "transmission": "Manual / Automatic",
         "seats": "5",
-        "image": "images/CRETA.jpg",
+        "image": "CRETA.jpg",
         "body": "SUV"
     }
 }
