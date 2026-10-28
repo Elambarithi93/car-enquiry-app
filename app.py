@@ -28,7 +28,7 @@ cars = {
         "engine": "1.2L",
         "transmission": "Manual / AMT",
         "seats": "5",
-        ""image": "SWIFT.jpg",
+        "image": "SWIFT.jpg",
         "body": "Hatchback"
     },
     "creta": {
