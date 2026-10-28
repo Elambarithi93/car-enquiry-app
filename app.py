@@ -18,6 +18,7 @@ cars = {
         "engine": "1.2L",
         "transmission": "Manual / AMT",
         "seats": "5",
+        "image": "images/Baleno.jpg",
         "body": "Hatchback"
     },
     "swift": {
@@ -27,6 +28,7 @@ cars = {
         "engine": "1.2L",
         "transmission": "Manual / AMT",
         "seats": "5",
+        "image": "images/SWIFT.jpg",
         "body": "Hatchback"
     },
     "creta": {
@@ -36,6 +38,7 @@ cars = {
         "engine": "Variant dependent",
         "transmission": "Manual / Automatic",
         "seats": "5",
+        "image": "images/CRETA.jpg",
         "body": "SUV"
     }
 }
@@ -67,6 +70,9 @@ if st.button("🔍 Search Car", use_container_width=True):
 
         st.header("🚘 " + car["name"])
         st.subheader("💰 " + car["price"])
+        import os
+        st.write("Image path:", car["image"], "File exists:", os.path.exists(car["image"]))
+        st.image(car["image"], use_container_width=True)
 
         col1, col2, col3 = st.columns(3)
 
